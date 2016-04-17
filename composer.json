@@ -1,5 +1,9 @@
 {
     "name": "inoplate/captcha",
+    "description": "The larave captcha/nocaptcha wrapper",
+    "keywords": ["laravel", "captcha", "inoplate"],
+    "type": "composer",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Inoplate\\Captcha\\": "src/"
@@ -9,5 +13,8 @@
         "google/recaptcha": "~1.1",
         "intervention/image": "^2.3",
         "dapphp/securimage": "^3.6"
+    },
+    "config": {
+        "preferred-install": "dist"
     }
 }
