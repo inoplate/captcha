@@ -1,0 +1,10 @@
+.captcha-image-holder {
+  position: relative;
+  padding-bottom: 35%;
+}
+.captcha-image-holder img {
+  position: absolute;
+  width: 100%;
+}
+
+/*# sourceMappingURL=captcha.css.map */
