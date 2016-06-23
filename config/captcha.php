@@ -7,7 +7,7 @@ return [
             'driver'    => 'recaptcha',
             'key'       => env('RECAPTCHA_KEY', 'your recaptcha key'),
             'secret'    => env('RECAPTCHA_SECRET', 'your recaptcha secret'),
-            'template'  => 'captcha::partials.recaptcha',
+            'template'  => 'inoplate-captcha::partials.recaptcha',
             'input'     => 'g-recaptcha-response'
         ],
         'image' => [
